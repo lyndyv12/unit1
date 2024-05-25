@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navcontainer">
+        <div class="NavLinks">
+            <a href="./index.html">Home</a>
+        </div>
+        <div class="NavLinks">
+            <a href="./about.html">About Me</a>
+        </div>
+        <div class="logo">
+            <img src ='./photos/logo.png' alt="LV">
+        </div>
+        <div class="NavLinks">
+            <a href="./portfolio.html">Portfolio</a>
+        </div>
+        <div class="NavLinks">
+            <a href="./contact.html">Contact Me</a>
+        </div>
+    </nav>
+    <header>
+        <img src ='./photos/headerphoto.jpg' alt="Picture">
+        <div class="text">
+            <h4 class="line1">Glad you are here, I'm Lyndsay...</h4>  
+            <h4 class="line2">I'm an aspiring software developer with a passion improving the customer experience with awesome products that improve people's lives!</h4>
+            <h1>Contact Me</h1>
+        </div> 
+        <div class="bar">
+            <br>
+        </div>
+    </header>
+    <main class="contact">
+        <p>I'd love to hear from you. Complete the form below and I'll be in touch!
+        </p>
+        <form action="./thanks.html">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="reason">Contact Reason:</label><br>
+            <textarea id="reason" name="reason" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
