@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <script src="script.js"></script>
     <nav class="navcontainer">
         <div class="NavLinks">
             <a href="./index.html">Home</a>
@@ -39,17 +38,19 @@
     <main class="contact">
         <p>I'd love to hear from you. Complete the form below and I'll be in touch!
         </p>
-        <form action="./thanks.html">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" value="John"><br>
+        <form action= "" id="contact-form">
+            <label for="first-name">First name:</label><br>
+            <input type="text" id="first-name" name="first-name"><br>
             <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="Doe"><br>
+            <input type="text" id="last-name" name="last-name"><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email"><br>
             <label for="reason">Contact Reason:</label><br>
             <textarea id="reason" name="reason" rows="4" cols="50"></textarea><br>
-            <input type="submit" value="Submit">
+            <input type="submit" id="submit" value="Submit">
         </form>
     </main>
+    <script src="script.js"></script>
+    <script src="formscript.js"></script>
 </body>
 </html>
